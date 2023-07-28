@@ -402,7 +402,7 @@ class DeeplabV3(object):
                         im,
                         f               = model_path,
                         verbose         = False,
-                        opset_version   = 12,
+                        opset_version   = 13,
                         training        = torch.onnx.TrainingMode.EVAL,
                         do_constant_folding = True,
                         input_names     = input_layer_names,
