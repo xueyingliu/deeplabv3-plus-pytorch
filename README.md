@@ -21,3 +21,4 @@ python predict.py
 python get_miou_onnx.py
 
 ```
+精度： mIoU: 76.97; mPA: 86.4; Accuracy: 94.63
